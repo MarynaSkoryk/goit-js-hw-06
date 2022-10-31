@@ -15,7 +15,7 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
-const list = dokument.querySelector('ul#ingredients');
+const list = document.querySelector('ul#ingredients');
 
 function createItem(text) {
   const itemEl = document.createElement('li');
